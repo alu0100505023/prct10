@@ -76,4 +76,33 @@ class matriz_densa < matriz;
 		return w       
 	end
 
+	def max(other)
+		
+		maximo = 0.to_f
+		for i in 0...@f do
+			for j in 0...@c do
+				if @m[i][j].to_f > maximo
+					maximo = @m[i][j].to_f
+				end
+			end
+		end
+		maximo
+
+	end
+
+
+	def min(other)
+
+		minimo = Maxint.to_f
+		for i in 0...@f do
+			for j in 0...@c do
+				if @m[i][j].to_f < minimo
+					minimo = @m[i][j].to_f
+				end
+			end
+		end
+		minimo
+
+	end
+
 end
