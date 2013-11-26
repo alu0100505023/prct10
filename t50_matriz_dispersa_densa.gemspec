@@ -7,9 +7,9 @@ Gem::Specification.new do |gem|
   gem.name          = "t50_matriz_dispersa_densa"
   gem.version       = T50MatrizDispersaDensa::VERSION
   gem.authors       = ["Javier C"]
-  gem.email         = ["TODO: Write your email address"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.email         = ["alu0100505023@ull.edu.es"]
+  gem.description   = %q{"Operaciones con matrices"}
+  gem.summary       = %q{"Operaciones con matrices densas y dispersas"}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
